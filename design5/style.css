@@ -1,0 +1,238 @@
+body
+{
+   background-color: rgb(230, 228, 228)
+;
+
+
+}
+#cont {
+    width: 90%;
+    height: 800px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    padding: 10px;
+    gap: 20px;
+   
+    border: 1px solid none;
+   grid-template-areas: 
+    "box1 box1 box2 box3"
+    "box4 box5 box5 box3" ;
+}
+#not
+{
+    position: absolute;
+    right: 10%;
+    /* opacity: 45%; */
+    z-index: 3; 
+    top: 1px;
+    
+}
+.we
+{
+
+    
+    border: 1px solid black;
+}
+#bx1
+{
+    position: relative;
+    padding: 10px 10px;
+    background-color: hsl(263, 55%, 52%);
+    border: none;
+    border-radius: 10px;
+}
+#img1
+{
+    /* position: absolute; */
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+#nm1
+{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: grid;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    color: white;
+}
+#para1
+{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 5; 
+    position: inherit;
+}
+#des1
+{
+   margin-top: 8px;
+    font-size: 15px;
+    color: white;
+   font-family: sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* box2 */
+
+#bx2
+{
+padding: 15px 15px;
+position: relative;
+background-color: hsl(217, 19%, 35%);
+ border-radius: 10px;
+ border: none;
+
+}
+#img2
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+#nm2
+{
+    display: grid;
+    position: absolute;
+    top: 10px;
+    left: 48px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#para2
+{
+     margin-top: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#des2
+{
+    margin-top: 8px;
+    font-size: 15px;
+    color: white;
+   font-family: sans-serif;
+}
+#bx3
+{
+    padding: 18px 18px;
+ position: relative;
+ border-radius: 10px;
+ border: none;
+ background-color: #FFFFFF;
+}
+#img3
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+#nm3
+{
+    display: grid;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#para3
+{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#des3
+{
+       margin-top: 8px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+   font-family: sans-serif;
+}
+#bx4
+{
+    padding: 15px 15px;
+position: relative;
+ border-radius: 10px;
+ background-color: #FFFFFF;
+ border: 1px  none;
+}
+#img4
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+#nm4
+{
+     display: grid;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+   color: hsl(217, 19%, 50%);
+}
+#des4
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #6d6d6d;
+   font-family: sans-serif;
+
+}
+
+#bx5
+{
+       padding: 15px 15px;
+position: relative;
+ border-radius: 10px;
+ background-color:#19202A;
+ border: 1px solid none;
+}
+#para5
+{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#des5
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+   font-family: sans-serif;
+}
+#nm5
+{
+         display: grid;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+   color: white;
+}
